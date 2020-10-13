@@ -1,0 +1,17 @@
+express -e express-project
+
+cd express-project
+
+npm i
+
+touch .gitignore
+
+// .gitignore
+
+node_modules/
+
+git init
+
+git add .
+
+git commit -m '建立環境'
